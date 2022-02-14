@@ -88,7 +88,7 @@ const CompleteInformation = ({ setShowForm ,position }) => {
   };
 
   return (
-    <div className={"h-screen w-screen "}>
+    <div className={"min-h-screen "}>
       <div  className={"flex w-full pt-4 flex-col"}>
         <div className={"flex justify-between px-6 pb-4 w-full items-center"}>
           <p className={"text-16 font-normal"}>ثبت نام</p>
@@ -193,7 +193,7 @@ const CompleteInformation = ({ setShowForm ,position }) => {
             <div className="w-full  flex justify-end items-end">
 
             </div>
-            <div className={"z-[999] fixed left-[1px] bottom-20 w-screen px-2.5 "}>
+            <div className={"px-2.5 "}>
               <button type={"submit"} className={"px-16 py-3 text-white rounded-md bg-emerald-400 w-full"}> مرحله بعد</button>
             </div>
           </form>
