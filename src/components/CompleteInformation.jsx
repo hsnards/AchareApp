@@ -5,7 +5,7 @@ const CompleteInformation = ({setShowForm}) => {
           <div className={"h-screen w-screen "}>
               <div header className={"flex w-full pt-4 flex-col"}>
                   <div className={"flex justify-between px-6 pb-4 w-full items-center"}>
-
+                      {/*salam*/}
                       <p className={"text-16 font-normal"}>ثبت نام</p>
                       <svg onClick={()=>setShowForm(false)} className="h-6 w-6 text-black font-medium" fill="none" viewBox="0 0 24 24"
                            stroke="currentColor">
