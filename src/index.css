@@ -6,6 +6,16 @@
     src: url('../public/assets/fonts/IRANSansWeb.woff');
 }
 
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
 @layer base {
     body {
         font-family: "Iran-Sans"
